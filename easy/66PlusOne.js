@@ -7,15 +7,13 @@
 
 */
 
+
 /**
  * @param {number[]} digits
  * @return {number[]}
  */
-/*
-// 내 풀이
- var plusOne = function(digits) {
+var plusOne = function(digits) {
   let index = digits.length - 1;
-  let lastNum = digits[index];
   digits[index] += 1;
 
   if(digits[index] < 10) {
@@ -42,7 +40,6 @@ function roundUpNumber(digits, index) {
   }
   return digits;
 }
-*/
 
 // 다른 사람들 풀이를 보니 더 효율적으로 풀어서 다른 코드들도 함께 작성
 
